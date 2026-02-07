@@ -1,13 +1,14 @@
-
-
+import Body from './components/Body';
+import Header from './components/Header';
+import Login from './components/login';
 
 function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-black">
-      <h1 className="text-4xl font-bold text-green-400">
-        Tailwind works 🎉
-      </h1>
-    </div>
+    <>
+      <Header />
+    
+      <Body />
+    </>
   );
 }
 
